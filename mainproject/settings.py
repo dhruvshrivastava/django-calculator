@@ -25,7 +25,11 @@ SECRET_KEY = 'f7u08nwwko+p2b#d!6tl-11nzq*b73cs-^m6#k=3i!ew@ckw@a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '0.0.0.0',
+    'django-calculator-dhruv.herokuapp.com',
+    '127.0.0.1'
+]
 
 
 # Application definition
